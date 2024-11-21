@@ -4,11 +4,11 @@
 #include <gumbo.h>
 #include <sqlite3.h>
 #include "nlohmann/json.hpp" 
-#include "ConfigManager.hpp"
-#include "HtmlParser.hpp"
-#include "Database.hpp"
-#include "ProductAnalyzer.hpp"
-#include "UserInterface.hpp"
+#include "ConfigManager/ConfigManager.hpp"
+#include "HtmlParser/HtmlParser.hpp"
+#include "Database/Database.hpp"
+#include "ProductAnalyzer/ProductAnalyzer.hpp"
+#include "UserInterface/UserInterface.hpp"
 
 
 int main() {

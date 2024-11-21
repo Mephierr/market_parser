@@ -1,3 +1,6 @@
+#pragma once
+#ifndef USERINTERFACE_HPP
+#define USERINTERFACE_HPP
 #include<iostream>
 
 class UserInterface {
@@ -6,3 +9,5 @@ public:
 
     std::string getUserInput(); 
 };
+
+#endif /*USERINTERFACE_HPP*/
