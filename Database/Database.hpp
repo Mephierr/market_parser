@@ -1,6 +1,8 @@
+#pragma once
+#ifndef DATABASE_HPP
+#define DATABASE_HPP
+
 #include<iostream>
-
-
 class Database {
     
 public:
@@ -10,3 +12,5 @@ public:
 
     void getProduct() ;
 };
+
+#endif /*DATABASE_HPP*/
